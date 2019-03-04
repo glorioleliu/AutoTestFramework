@@ -28,15 +28,15 @@
     - TestSuite
     
  # Test Suite Setup by TestNg 
- '''xml
- <suite name="1stSuite">
-     <test name ="ListTest">
-         <classes>
-             <class name ="Test1" />
+ 
+--- <suite name="1stSuite">
+   ---  <test name ="ListTest">
+      ---   <classes>
+         ---    <class name ="Test1" />
          </classes>
      </test>
   </suite>
- '''
+ 
   <suite name="2ndSuite">
      <test name ="DetailTest">
          <classes>
