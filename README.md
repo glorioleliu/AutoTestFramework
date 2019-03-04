@@ -30,20 +30,20 @@
  # Test Suite Setup by TestNg 
 
 <pre>
- <&lt;suite name="1stSuite">&gt;
-     <test name ="ListTest">
-         <classes>
-             <class name ="Test1" />
-         </classes>
-     </test>
-  </suite>
+ &lt;suite name="1stSuite"&gt;
+     &lt;test name ="ListTest"&gt;
+         &lt;classes&gt;
+             &lt;class name ="Test1" /&gt;
+         &lt;/classes&gt;
+     &lt;/test&gt;
+  &lt;/suite&gt;
  
-  <suite name="2ndSuite">
-     <test name ="DetailTest">
-         <classes>
-             <class name ="Test2" />
-         </classes>
-     </test>
-  </suite>
+  &lt;suite name="2ndSuite"&gt;
+     &lt;test name ="DetailTest"&gt;
+         &lt;classes&gt;
+             &lt;class name ="Test2" /&gt;
+         &lt;/classes&gt;
+     &lt;/test&gt;
+  &lt;/suite&gt;
  <code>  
     
