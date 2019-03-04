@@ -28,11 +28,12 @@
     - TestSuite
     
  # Test Suite Setup by TestNg 
- 
---- <suite name="1stSuite">
-   ---  <test name ="ListTest">
-      ---   <classes>
-         ---    <class name ="Test1" />
+
+'''xml
+ <suite name="1stSuite">
+     <test name ="ListTest">
+         <classes>
+             <class name ="Test1" />
          </classes>
      </test>
   </suite>
@@ -44,5 +45,5 @@
          </classes>
      </test>
   </suite>
-    
+ '''   
     
