@@ -29,7 +29,7 @@
     
  # Test Suite Setup by TestNg 
 
-'''xml
+<pre>
  <&lt;suite name="1stSuite">&gt;
      <test name ="ListTest">
          <classes>
@@ -45,5 +45,5 @@
          </classes>
      </test>
   </suite>
- '''   
+ <code>  
     
