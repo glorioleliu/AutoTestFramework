@@ -16,4 +16,15 @@
   
   
   # Test framework structure
+    - Android
+      - InitialAndroid
+      - LaApp
+    - Core
+      - AllureReport
+      - AppiumDriverBuilder
+      - CaptureScreen
+      - TestListener
+    - MobileObjects
+    - TestSuite
+    
     
