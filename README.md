@@ -29,8 +29,6 @@
     
  # Test Suite Setup by TestNg
  
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="1stSuite">
     <test name ="ListTest">
         <classes>
@@ -39,8 +37,6 @@
     </test>
 </suite>
  
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="2ndSuite">
     <test name ="DetailTest">
         <classes>
