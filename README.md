@@ -27,8 +27,7 @@
     - MobileObjects
     - TestSuite
     
- # Test Suite Setup by TestNg
- 
+ # Test Suite Setup by TestNg 
  <suite name="1stSuite">
     <test name ="ListTest">
         <classes>
