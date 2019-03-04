@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Configuration status="warn" name = "XMLLog4j2">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%highlight{[%-6p]}{ERROR=red,WARN=yellow,INFO=cyan,DEBUG=white}%style{[%-23d{yyyy/MM/dd HH:mm:ssS}]}{bright}  %m %n"/>
+        </Console>
+
+        <File name = "FileAppender" fileName = "src/log/logging.log">
+            <PatternLayout pattern="[%p]}[%-23d{yyyy/MM/dd HH:mm:ssS}]%m%n"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="FileAppender">
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+        <Root level = "trace">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+
+    </Loggers>
+</Configuration>
