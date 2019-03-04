@@ -29,20 +29,20 @@
     
  # Test Suite Setup by TestNg
  
-<suite name="1stSuite">
+ <suite name="1stSuite">
     <test name ="ListTest">
         <classes>
             <class name ="Test1" />
         </classes>
     </test>
-</suite>
+ </suite>
  
-<suite name="2ndSuite">
+ <suite name="2ndSuite">
     <test name ="DetailTest">
         <classes>
             <class name ="Test2" />
         </classes>
     </test>
-</suite>
+ </suite>
     
     
