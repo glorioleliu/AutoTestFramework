@@ -30,7 +30,7 @@
  # Test Suite Setup by TestNg 
 
 '''xml
- <suite name="1stSuite">
+ <&lt;suite name="1stSuite">&gt;
      <test name ="ListTest">
          <classes>
              <class name ="Test1" />
